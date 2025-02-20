@@ -17,11 +17,15 @@ type Verb struct {
 
 // parseFlags handles the command-line parsing of flags and returns the verb to search for.
 func parseFlags() string {
-	var flagVarVerb string
-	verbToFindPtr := flag.String("verb", "", "Verbo italiano da cercare (es. Essere)")
-	flag.StringVar(&flagVarVerb, "v", "", "Verbo italiano da cercare (abbreviazione di -verb)")
-	flag.Parse()
-	return *verbToFindPtr
+    var flagVarVerb string
+    verbToFindPtr := flag.String("verb", "", "Verbo italiano da cercare (es. Essere)")
+    flag.StringVar(&flagVarVerb, "v", "", "Verbo italiano da cercare (abbreviazione di -verb)")
+    flag.Parse()
+
+    if flagVarVerb != "" {
+        return flagVarVerb
+    }
+    return *verbToFindPtr
 }
 
 // readVerbsFromFile reads the contents of the specified JSON file and returns it as a byte slice.
