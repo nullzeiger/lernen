@@ -1,2 +1,2 @@
 # lernen
-A tool for learning the German language
+Program to search for verb conjugations in Italian and German

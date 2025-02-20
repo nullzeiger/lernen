@@ -1,0 +1,247 @@
+[
+  {
+    "verb": "Essere",
+    "de": ["ich bin", "du bist", "er/sie/es ist", "wir sind", "ihr seid", "sie/Sie sind"],
+    "it": ["io sono", "tu sei", "lui/lei/Lei è", "noi siamo", "voi siete", "loro/Loro sono"]
+  },
+  {
+    "verb": "Avere",
+    "de": ["ich habe", "du hast", "er/sie/es hat", "wir haben", "ihr habt", "sie/Sie haben"],
+    "it": ["io ho", "tu hai", "lui/lei/Lei ha", "noi abbiamo", "voi avete", "loro/Loro hanno"]
+  },
+  {
+    "verb": "Fare",
+    "de": ["ich mache", "du machst", "er/sie/es macht", "wir machen", "ihr macht", "sie/Sie machen"],
+    "it": ["io faccio", "tu fai", "lui/lei/Lei fa", "noi facciamo", "voi fate", "loro/Loro fanno"]
+  },
+  {
+    "verb": "Dire",
+    "de": ["ich sage", "du sagst", "er/sie/es sagt", "wir sagen", "ihr sagt", "sie/Sie sagen"],
+    "it": ["io dico", "tu dici", "lui/lei/Lei dice", "noi diciamo", "voi dite", "loro/Loro dicono"]
+  },
+  {
+    "verb": "Andare",
+    "de": ["ich gehe", "du gehst", "er/sie/es geht", "wir gehen", "ihr geht", "sie/Sie gehen"],
+    "it": ["io vado", "tu vai", "lui/lei/Lei va", "noi andiamo", "voi andate", "loro/Loro vanno"]
+  },
+  {
+    "verb": "Potere (essere in grado di)",
+    "de": ["ich kann", "du kannst", "er/sie/es kann", "wir können", "ihr könnt", "sie/Sie können"],
+    "it": ["io posso", "tu puoi", "lui/lei/Lei può", "noi possiamo", "voi potete", "loro/Loro possono"]
+  },
+  {
+    "verb": "Volere",
+    "de": ["ich will", "du willst", "er/sie/es will", "wir wollen", "ihr wollt", "sie/Sie wollen"],
+    "it": ["io voglio", "tu vuoi", "lui/lei/Lei vuole", "noi vogliamo", "voi volete", "loro/Loro vogliono"]
+  },
+  {
+    "verb": "Dovere (essere obbligato a)",
+    "de": ["ich muss", "du musst", "er/sie/es muss", "wir müssen", "ihr müsst", "sie/Sie müssen"],
+    "it": ["io devo", "tu devi", "lui/lei/Lei deve", "noi dobbiamo", "voi dovete", "loro/Loro devono"]
+  },
+  {
+    "verb": "Venire",
+    "de": ["ich komme", "du kommst", "er/sie/es kommt", "wir kommen", "ihr kommt", "sie/Sie kommen"],
+    "it": ["io vengo", "tu vieni", "lui/lei/Lei viene", "noi veniamo", "voi venite", "loro/Loro vengono"]
+  },
+  {
+    "verb": "Dare",
+    "de": ["ich gebe", "du gibst", "er/sie/es gibt", "wir geben", "ihr gebt", "sie/Sie geben"],
+    "it": ["io do", "tu dai", "lui/lei/Lei dà", "noi diamo", "voi date", "loro/Loro danno"]
+  },
+  {
+    "verb": "Prendere",
+    "de": ["ich nehme", "du nimmst", "er/sie/es nimmt", "wir nehmen", "ihr nehmt", "sie/Sie nehmen"],
+    "it": ["io prendo", "tu prendi", "lui/lei/Lei prende", "noi prendiamo", "voi prendete", "loro/Loro prendono"]
+  },
+  {
+    "verb": "Stare (essere/trovarsi in un luogo)",
+    "de": ["ich stehe", "du stehst", "er/sie/es steht", "wir stehen", "ihr steht", "sie/Sie stehen"],
+    "it": ["io sto", "tu stai", "lui/lei/Lei sta", "noi stiamo", "voi state", "loro/Loro stanno"]
+  },
+  {
+    "verb": "Sedersi",
+    "de": ["ich sitze", "du sitzt", "er/sie/es sitzt", "wir sitzen", "ihr sitzt", "sie/Sie sitzen"],
+    "it": ["io siedo", "tu siedi", "lui/lei/Lei siede", "noi sediamo", "voi sedete", "loro/Loro siedono"]
+  },
+  {
+    "verb": "Parlare",
+    "de": ["ich spreche", "du sprichst", "er/sie/es spricht", "wir sprechen", "ihr sprecht", "sie/Sie sprechen"],
+    "it": ["io parlo", "tu parli", "lui/lei/Lei parla", "noi parliamo", "voi parlate", "loro/Loro parlano"]
+  },
+  {
+    "verb": "Pensare",
+    "de": ["ich denke", "du denkst", "er/sie/es denkt", "wir denken", "ihr denkt", "sie/Sie denken"],
+    "it": ["io penso", "tu pensi", "lui/lei/Lei pensa", "noi pensiamo", "voi pensate", "loro/Loro pensano"]
+  },
+  {
+    "verb": "Guardare",
+    "de": ["ich sehe", "du siehst", "er/sie/es sieht", "wir sehen", "ihr seht", "sie/Sie sehen"],
+    "it": ["io vedo", "tu vedi", "lui/lei/Lei vede", "noi vediamo", "voi vedete", "loro/Loro vedono"]
+  },
+  {
+    "verb": "Trovare",
+    "de": ["ich finde", "du findest", "er/sie/es findet", "wir finden", "ihr findet", "sie/Sie finden"],
+    "it": ["io trovo", "tu trovi", "lui/lei/Lei trova", "noi troviamo", "voi trovate", "loro/Loro trovano"]
+  },
+  {
+    "verb": "Diventare",
+    "de": ["ich werde", "du wirst", "er/sie/es wird", "wir werden", "ihr werdet", "sie/Sie werden"],
+    "it": ["io divento", "tu diventi", "lui/lei/Lei diventa", "noi diventiamo", "voi diventate", "loro/Loro diventano"]
+  },
+  {
+    "verb": "Chiamare",
+    "de": ["ich heiße", "du heißt", "er/sie/es heißt", "wir heißen", "ihr heißt", "sie/Sie heißen"],
+    "it": ["io mi chiamo", "tu ti chiami", "lui/lei/Lei si chiama", "noi ci chiamiamo", "voi vi chiamate", "loro/Loro si chiamano"]
+  },
+  {
+    "verb": "Credere",
+    "de": ["ich glaube", "du glaubst", "er/sie/es glaubt", "wir glauben", "ihr glaubt", "sie/Sie glauben"],
+    "it": ["io credo", "tu credi", "lui/lei/Lei crede", "noi crediamo", "voi credete", "loro/Loro credono"]
+  },
+  {
+    "verb": "Sapere (essere a conoscenza di)",
+    "de": ["ich weiß", "du weißt", "er/sie/es weiß", "wir wissen", "ihr wisst", "sie/Sie wissen"],
+    "it": ["io so", "tu sai", "lui/lei/Lei sa", "noi sappiamo", "voi sapete", "loro/Loro sanno"]
+  },
+  {
+    "verb": "Valere",
+    "de": ["ich gelte", "du giltst", "er/sie/es gilt", "wir gelten", "ihr geltet", "sie/Sie gelten"],
+    "it": ["io valgo", "tu vali", "lui/lei/Lei vale", "noi valiamo", "voi valete", "loro/Loro valgono"]
+  },
+  {
+    "verb": "Sentire",
+    "de": ["ich höre", "du hörst", "er/sie/es hört", "wir hören", "ihr hört", "sie/Sie hören"],
+    "it": ["io sento", "tu senti", "lui/lei/Lei sente", "noi sentiamo", "voi sentite", "loro/Loro sentono"]
+  },
+  {
+    "verb": "Lasciare",
+    "de": ["ich lasse", "du lässt", "er/sie/es lässt", "wir lassen", "ihr lasst", "sie/Sie lassen"],
+    "it": ["io lascio", "tu lasci", "lui/lei/Lei lascia", "noi lasciamo", "voi lasciate", "loro/Loro lasciano"]
+  },
+  {
+    "verb": "Leggere",
+    "de": ["ich lese", "du liest", "er/sie/es liest", "wir lesen", "ihr lest", "sie/Sie lesen"],
+    "it": ["io leggo", "tu leggi", "lui/lei/Lei legge", "noi leggiamo", "voi leggete", "loro/Loro leggono"]
+  },
+  {
+    "verb": "Imparare",
+    "de": ["ich lerne", "du lernst", "er/sie/es lernt", "wir lernen", "ihr lernt", "sie/Sie lernen"],
+    "it": ["io imparo", "tu impari", "lui/lei/Lei impara", "noi impariamo", "voi imparate", "loro/Loro imparano"]
+  },
+  {
+    "verb": "Scrivere",
+    "de": ["ich schreibe", "du schreibst", "er/sie/es schreibt", "wir schreiben", "ihr schreibt", "sie/Sie schreiben"],
+    "it": ["io scrivo", "tu scrivi", "lui/lei/Lei scrive", "noi scriviamo", "voi scrivete", "loro/Loro scrivono"]
+  },
+  {
+    "verb": "Nuotare",
+    "de": ["ich schwimme", "du schwimmst", "er/sie/es schwimmt", "wir schwimmen", "ihr schwimmt", "sie/Sie schwimmen"],
+    "it": ["io nuoto", "tu nuoti", "lui/lei/Lei nuota", "noi nuotiamo", "voi nuotate", "loro/Loro nuotano"]
+  },
+  {
+    "verb": "Dormire",
+    "de": ["ich schlafe", "du schläfst", "er/sie/es schläft", "wir schlafen", "ihr schlaft", "sie/Sie schlafen"],
+    "it": ["io dormo", "tu dormi", "lui/lei/Lei dorme", "noi dormiamo", "voi dormite", "loro/Loro dormono"]
+  },
+  {
+    "verb": "Mangiare",
+    "de": ["ich esse", "du isst", "er/sie/es isst", "wir essen", "ihr esst", "sie/Sie essen"],
+    "it": ["io mangio", "tu mangi", "lui/lei/Lei mangia", "noi mangiamo", "voi mangiate", "loro/Loro mangiano"]
+  },
+  {
+    "verb": "Bere",
+    "de": ["ich trinke", "du trinkst", "er/sie/es trinkt", "wir trinken", "ihr trinkt", "sie/Sie trinken"],
+    "it": ["io bevo", "tu bevi", "lui/lei/Lei beve", "noi beviamo", "voi bevete", "loro/Loro bevono"]
+  },
+  {
+    "verb": "Lavorare",
+    "de": ["ich arbeite", "du arbeitest", "er/sie/es arbeitet", "wir arbeiten", "ihr arbeitet", "sie/Sie arbeiten"],
+    "it": ["io lavoro", "tu lavori", "lui/lei/Lei lavora", "noi lavoriamo", "voi lavorate", "loro/Loro lavorano"]
+  },
+  {
+    "verb": "Chiedere",
+    "de": ["ich frage", "du fragst", "er/sie/es fragt", "wir fragen", "ihr fragt", "sie/Sie fragen"],
+    "it": ["io chiedo", "tu chiedi", "lui/lei/Lei chiede", "noi chiediamo", "voi chiedete", "loro/Loro chiedono"]
+  },
+  {
+    "verb": "Aiutare",
+    "de": ["ich helfe", "du hilfst", "er/sie/es hilft", "wir helfen", "ihr helft", "sie/Sie helfen"],
+    "it": ["io aiuto", "tu aiuti", "lui/lei/Lei aiuta", "noi aiutiamo", "voi aiutate", "loro/Loro aiutano"]
+  },
+  {
+    "verb": "Amare",
+    "de": ["ich liebe", "du liebst", "er/sie/es liebt", "wir lieben", "ihr liebt", "sie/Sie lieben"],
+    "it": ["io amo", "tu ami", "lui/lei/Lei ama", "noi amiamo", "voi amate", "loro/Loro amano"]
+  },
+  {
+    "verb": "Aspettare",
+    "de": ["ich warte", "du wartest", "er/sie/es wartet", "wir warten", "ihr wartet", "sie/Sie warten"],
+    "it": ["io aspetto", "tu aspetti", "lui/lei/Lei aspetta", "noi aspettiamo", "voi aspettate", "loro/Loro aspettano"]
+  },
+  {
+    "verb": "Comprare",
+    "de": ["ich kaufe", "du kaufst", "er/sie/es kauft", "wir kaufen", "ihr kauft", "sie/Sie kaufen"],
+    "it": ["io compro", "tu compri", "lui/lei/Lei compra", "noi compriamo", "voi comprate", "loro/Loro comprano"]
+  },
+  {
+    "verb": "Pagare",
+    "de": ["ich zahle", "du zahlst", "er/sie/es zahlt", "wir zahlen", "ihr zahlt", "sie/Sie zahlen"],
+    "it": ["io pago", "tu paghi", "lui/lei/Lei paga", "noi paghiamo", "voi pagate", "loro/Loro pagano"]
+  },
+  {
+    "verb": "Visitare",
+    "de": ["ich besuche", "du besuchst", "er/sie/es besucht", "wir besuchen", "ihr besucht", "sie/Sie besuchen"],
+    "it": ["io visito", "tu visiti", "lui/lei/Lei visita", "noi visitiamo", "voi visitate", "loro/Loro visitano"]
+  },
+  {
+    "verb": "Viaggiare",
+    "de": ["ich reise", "du reist", "er/sie/es reist", "wir reisen", "ihr reist", "sie/Sie reisen"],
+    "it": ["io viaggio", "tu viaggi", "lui/lei/Lei viaggia", "noi viaggiamo", "voi viaggiate", "loro/Loro viaggiano"]
+  },
+  {
+    "verb": "Iniziare",
+    "de": ["ich beginne", "du beginnst", "er/sie/es beginnt", "wir beginnen", "ihr beginnt", "sie/Sie beginnen"],
+    "it": ["io inizio", "tu inizi", "lui/lei/Lei inizia", "noi iniziamo", "voi iniziate", "loro/Loro iniziano"]
+  },
+  {
+    "verb": "Finire",
+    "de": ["ich ende", "du endest", "er/sie/es endet", "wir enden", "ihr endet", "sie/Sie enden"],
+    "it": ["io finisco", "tu finisci", "lui/lei/Lei finisce", "noi finiamo", "voi finite", "loro/Loro finiscono"]
+  },
+  {
+    "verb": "Vivere",
+    "de": ["ich wohne", "du wohnst", "er/sie/es wohnt", "wir wohnen", "ihr wohnt", "sie/Sie wohnen"],
+    "it": ["io vivo (abito)", "tu vivi (abiti)", "lui/lei/Lei vive (abita)", "noi viviamo (abitiamo)", "voi vivete (abitate)", "loro/Loro vivono (abitano)"]
+  },
+  {
+    "verb": "Mostrare",
+    "de": ["ich zeige", "du zeigst", "er/sie/es zeigt", "wir zeigen", "ihr zeigt", "sie/Sie zeigen"],
+    "it": ["io mostro", "tu mostri", "lui/lei/Lei mostra", "noi mostriamo", "voi mostrate", "loro/Loro mostrano"]
+  },
+  {
+    "verb": "Spiegare",
+    "de": ["ich erkläre", "du erklärst", "er/sie/es erklärt", "wir erklären", "ihr erklärt", "sie/Sie erklären"],
+    "it": ["io spiego", "tu spieghi", "lui/lei/Lei spiega", "noi spieghiamo", "voi spiegate", "loro/Loro spiegano"]
+  },
+  {
+    "verb": "Ricordare",
+    "de": ["ich erinnere", "du erinnerst", "er/sie/es erinnert", "wir erinnern", "ihr erinnert", "sie/Sie erinnern"],
+    "it": ["io ricordo", "tu ricordi", "lui/lei/Lei ricorda", "noi ricordiamo", "voi ricordate", "loro/Loro ricordano"]
+  },
+  {
+    "verb": "Ringraziare",
+    "de": ["ich danke", "du dankst", "er/sie/es dankt", "wir danken", "ihr dankt", "sie/Sie danken"],
+    "it": ["io ringrazio", "tu ringrazi", "lui/lei/Lei ringrazia", "noi ringraziamo", "voi ringraziate", "loro/Loro ringraziano"]
+  },
+  {
+    "verb": "Augurare",
+    "de": ["ich wünsche", "du wünschst", "er/sie/es wünscht", "wir wünschen", "ihr wünscht", "sie/Sie wünschen"],
+    "it": ["io auguro", "tu auguri", "lui/lei/Lei augura", "noi auguriamo", "voi augurate", "loro/Loro augurano"]
+  },
+  {
+    "verb": "Salutare",
+    "de": ["ich grüße", "du grüßt", "er/sie/es grüßt", "wir grüßen", "ihr grüßt", "sie/Sie grüßen"],
+    "it": ["io saluto", "tu saluti", "lui/lei/Lei saluta", "noi salutiamo", "voi salutate", "loro/Loro salutano"]
+  }
+]
