@@ -6,12 +6,16 @@
 package main
 
 import (
+	"embed"
 	"encoding/json"
 	"flag"
 	"fmt"
 	"os"
 	"strings"
 )
+
+//go:embed assets/verbs.json
+var fileJSON embed.FS
 
 // The verb represents the structure of a verb in the JSON file.
 type Verb struct {
@@ -22,15 +26,15 @@ type Verb struct {
 
 // parseFlags handles the command-line parsing of flags and returns the verb to search for.
 func parseFlags() string {
-    var flagVarVerb string
-    verbToFindPtr := flag.String("verb", "", "Verbo italiano da cercare (es. Essere)")
-    flag.StringVar(&flagVarVerb, "v", "", "Verbo italiano da cercare (abbreviazione di -verb)")
-    flag.Parse()
+	var flagVarVerb string
+	verbToFindPtr := flag.String("verb", "", "Verbo italiano da cercare (es. Essere)")
+	flag.StringVar(&flagVarVerb, "v", "", "Verbo italiano da cercare (abbreviazione di -verb)")
+	flag.Parse()
 
-    if flagVarVerb != "" {
-        return flagVarVerb
-    }
-    return *verbToFindPtr
+	if flagVarVerb != "" {
+		return flagVarVerb
+	}
+	return *verbToFindPtr
 }
 
 // readVerbsFromFile reads the contents of the specified JSON file and returns it as a byte slice.
@@ -101,7 +105,7 @@ func main() {
 	verbToFind := parseFlags()
 
 	// Reading the JSON file.
-	byteValue, err := readVerbsFromFile("./assets/verbs.json")
+	byteValue, err := fileJSON.ReadFile("assets/verbs.json")
 	if err != nil {
 		fmt.Println("Errore:", err)
 		return
