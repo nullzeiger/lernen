@@ -59,25 +59,25 @@ func unmarshalVerbs(byteValue []byte) ([]Verb, error) {
 }
 
 // displayVerbInfo prints information for a single verb.
-func displayVerbInfo(verbo Verb) {
-	fmt.Println("\nVerbo (Italiano):", verbo.Verb)
+func displayVerbInfo(verb Verb) {
+	fmt.Println("\nVerbo (Italiano):", verb.Verb)
 
 	fmt.Println("\nConiugazioni Tedesche:")
-	for _, coniugazione := range verbo.De {
+	for _, coniugazione := range verb.De {
 		fmt.Println(coniugazione)
 	}
 
 	fmt.Println("\nConiugazioni Italiane:")
-	for _, coniugazione := range verbo.It {
+	for _, coniugazione := range verb.It {
 		fmt.Println(coniugazione)
 	}
 	fmt.Println("--------------------")
 }
 
 // findAndDisplayVerbs iterates through the verb slice, filters by verb if specified, and prints the information.
-func findAndDisplayVerbs(verbi []Verb, verbToFind string) bool {
+func findAndDisplayVerbs(verbs []Verb, verbToFind string) bool {
 	verbFound := false
-	for _, verbo := range verbi {
+	for _, verbo := range verbs {
 		if verbToFind == "" || strings.EqualFold(strings.ToLower(verbo.Verb), strings.ToLower(verbToFind)) {
 			verbFound = true
 			displayVerbInfo(verbo)
@@ -87,12 +87,12 @@ func findAndDisplayVerbs(verbi []Verb, verbToFind string) bool {
 }
 
 // handle Output Messages handles printing of output messages based on the search results.
-func handleOutputMessages(verbToFind string, verbFound bool, verbi []Verb) {
+func handleOutputMessages(verbToFind string, verbFound bool, verbs []Verb) {
 	if verbToFind != "" && !verbFound {
 		fmt.Printf("\nVerbo '%s' non trovato nel file verbs.json.\n", verbToFind)
-	} else if verbToFind == "" && !verbFound && len(verbi) == 0 {
+	} else if verbToFind == "" && !verbFound && len(verbs) == 0 {
 		fmt.Println("\nNessun verbo trovato nel file verbs.json.")
-	} else if verbToFind == "" && verbFound && len(verbi) > 0 {
+	} else if verbToFind == "" && verbFound && len(verbs) > 0 {
 		fmt.Println("\nElenco di tutti i verbi nel file verbs.json mostrato.")
 		fmt.Println("Per visualizzare un verbo specifico, usa il flag: -verb <nome_verbo> oppure -v <nome_verbo>")
 	} else if verbToFind != "" && verbFound {
@@ -112,15 +112,15 @@ func main() {
 	}
 
 	// Unmarshalling JSON.
-	verbi, err := unmarshalVerbs(byteValue)
+	verbs, err := unmarshalVerbs(byteValue)
 	if err != nil {
 		fmt.Println("Errore:", err)
 		return
 	}
 
 	// Verb lookup and printing.
-	verbFound := findAndDisplayVerbs(verbi, verbToFind)
+	verbFound := findAndDisplayVerbs(verbs, verbToFind)
 
 	// Output message handling.
-	handleOutputMessages(verbToFind, verbFound, verbi)
+	handleOutputMessages(verbToFind, verbFound, verbs)
 }
