@@ -50,12 +50,12 @@ func readVerbsFromFile(filePath string) ([]byte, error) {
 // unmarshalVerbs parses the JSON from a byte slice and deserializes it into a Verb structure slice.
 // Returns an error if the JSON parsing fails.
 func unmarshalVerbs(byteValue []byte) ([]Verb, error) {
-	var verbi []Verb
-	err := json.Unmarshal(byteValue, &verbi)
+	var verbs []Verb
+	err := json.Unmarshal(byteValue, &verbs)
 	if err != nil {
 		return nil, fmt.Errorf("errore nell'analisi JSON: %w", err)
 	}
-	return verbi, nil
+	return verbs, nil
 }
 
 // displayVerbInfo prints information for a single verb.
